@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Module '101-safely_get_value.py'"""
+from typing import TypeVar, Mapping, Union, Any
 
 T = TypeVar("T")
 
