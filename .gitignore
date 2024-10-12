@@ -1,3 +1,6 @@
+__pycache__
 # user custom
 .histfile
 **/.histfile
+
+**/*-main.py
