@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Module '102-type_checking.py'"""
+from typing import Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
