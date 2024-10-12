@@ -2,6 +2,6 @@
 """Module '5-sum_list.py' contains function sum_list"""
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """Sums a list of floats"""
-    return float(sum(input_list))
+    return sum(input_list)
