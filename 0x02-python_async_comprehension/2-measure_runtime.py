@@ -8,6 +8,6 @@ async_comprehension = __import__("1-async_comprehension").async_comprehension
 
 async def measure_time() -> float:
     """Measure the runtime of coroutines"""
-    start = time.perf_counter()
+    start = time.Time()
     await asyncio.gather(*(async_comprehension() for _ in range(4)))
-    return time.perf_counter() - start
+    return time.Time() - start
